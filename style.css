@@ -43,7 +43,7 @@ h1 {
     width: 70ch;
 }
 
-.profile__social {
+.profile__social, .footer__social {
     display: grid;
     grid-auto-flow: column;
     list-style: none;
@@ -52,4 +52,24 @@ h1 {
     margin: 0 auto;
     color: #0085FF;
     font-size: 22px;
+}
+
+.footer {
+    background: #000;
+    position: fixed;
+    height: 137px;
+    width: 100vw;
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 25px;
+    bottom: 0;
+}
+
+.footer__social {
+    margin: 0;
+    color: #fff;
+    justify-self: end;
 }
